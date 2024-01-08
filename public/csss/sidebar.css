@@ -1,0 +1,45 @@
+/* header */
+header{
+    background: #fff;
+    color : #fff;
+    padding : 20px 20px;
+    font-size: 20px;
+
+}
+/* lebar menu dan background */
+aside{
+    flex : 20%;
+    background: #00AD65;
+    width: 200px;
+    height : 660px;
+    float: left;    
+    padding: 6px;
+}
+
+/*konten utama*/
+section.main{
+    flex: 80%;
+    background: #fff;
+    min-height: 520px;
+    padding: 15px 20px;
+}
+
+/*navigasi*/
+.menu{
+    padding: 0;
+}
+.menu li{
+    border-bottom: 2px double #fff;
+}
+.menu a{
+    display: block;
+    padding: 20px 20px;
+    list-style:none;
+    color: #fff;
+    text-decoration : none;
+}
+
+.menu a:hover{
+    background: #ccc;
+}
+
